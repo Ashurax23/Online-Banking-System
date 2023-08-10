@@ -1,0 +1,7 @@
+create database bankm;
+use bankm;
+create table user(name varchar(40),dob varchar(15),gender char(1),phone varchar(10),email varchar(50),account varchar(11),
+balance int8,password varchar(30),card varchar(16),pin char(4),
+address varchar(30),city varchar(20),state varchar(15),
+country varchar(15));
+create table transactions(saccount varchar(11),raccount varchar(11),balance int8);
